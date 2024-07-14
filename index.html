@@ -45,7 +45,10 @@
         </ul>
       </div>
       <div class="form-container">
-        <form style="width: 100%;padding-right: 20px;padding-left: 20px;" onsubmit="submittedfromtheuser(event)">
+        <form
+          style="width: 100%; padding-right: 20px; padding-left: 20px"
+          onsubmit="submittedfromtheuser(event)"
+        >
           <h2>Your post</h2>
           <div class="input-group">
             <div
@@ -66,14 +69,19 @@
 
             <!-- <div class="input-group"> -->
             <div
-              style="width: 100%; display: flex; justify-content: space-between;align-items: center;"
+              style="
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              "
             >
               <label style="width: 30%; text-align: start" for="color"
                 ><br />Favorite color</label
               >
               <select
                 id="color"
-                style="width: 60%;height: 33px;"
+                style="width: 60%; height: 33px"
                 name="color"
                 onchange="changeBackgroundColor()"
               >
