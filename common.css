@@ -4,11 +4,10 @@
 body {
   font-family: Arial, sans-serif;
   background: #f5f5f5;
-  margin: 0;
+  margin: 0px;
   padding: 0;
   justify-content: center;
   align-items: center;
-  height: 60vh;
   width: 100%;
 }
 .container {
@@ -16,15 +15,14 @@ body {
   border-radius: 8px;
   box-shadow: 0 2px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  height: 100%;
   width: 100%;
   display: flex;
   justify-content: space-between;
+  height: calc(100vh - 84px);
 }
-
 .form-container {
   padding: 20px;
-  width: 40%;
+  width: 50%;
   margin: 20px auto;
   border: 1px solid #4589d1;
   border-radius: 10px;
@@ -32,7 +30,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80%;
+  height: 50%;
 }
 
 header {
@@ -119,6 +117,8 @@ header .logo img {
   margin-top: 20px;
   border-radius: 10px;
   align-items: space-between;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 .sidebar ul li:hover {
